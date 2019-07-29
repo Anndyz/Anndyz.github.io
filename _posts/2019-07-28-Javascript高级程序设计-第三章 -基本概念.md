@@ -117,4 +117,56 @@ tags: Javascript
      
      ```
 
-     
+  5. **String类型**
+  
+     **由单引号''和双引号""包含的字符序列**
+  
+     ```javascript
+     var first = 'first';
+     var second = "second";
+     ```
+  
+     **ECMAScript中的字符串是不可变的，也就是字符串一旦建立，具体的值就不能改变**
+  
+     ```javascript
+     var lang = "Java";
+     lang = lang + "Script";
+     //第二行的代码是，两个字符串拼接，然后变量lang指向了新的字符串
+     //最后，在后台删除了这俩字符串
+     ```
+  
+     **转换为字符串**
+  
+     ```javascript
+     var age = 11;
+     var ageAsString = age.toString();		//字符串11
+     ```
+  
+     **Object类型**
+  
+     **Object类型是Javascript所以的对象的基础，所有的对象都具备Object所有的属性和方法**
+  
+     ```javascript
+     var o = new Object();
+     //1.constructor:保存着创建当前对象的函数，与类型同名，比如Object();
+     //2.toLocaleString();返回对象的字符串表示，与执行的环境相关
+     //3.toString()
+     //4.valueOf()  
+     //5.....
+     ```
+  
+- **操作符**
+
+  **一元操作符**
+
+  ```javascript
+  ++ --  + -  ~ ^ & << >>  ! &&  || ... 		//这类运算符只有一个操作数
+  ```
+
+  **多元操作符**
+
+  ```javascript
+  + - * / %
+  ```
+
+  
